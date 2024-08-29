@@ -46,8 +46,8 @@ function cursorAnimation() {
   // });
   Shery.makeMagnet("#navRight p");
   Shery.mouseFollower({
-    skew: true,
-    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+    // skew: true,
+    // ease: "cubic-bezier(0.23, 1, 0.320, 1)",
     duration: 1,
   });
   var videoContainer = document.getElementById("videoContainer");
@@ -127,7 +127,6 @@ function cursorAnimation() {
   });
 }
 function loaderAnimation() {
-  // Sites code starts from here -------------------------------------------
   // loader section ------------------------------------------------------
   var tl = gsap.timeline();
   tl.from(".line h2", {
@@ -157,7 +156,7 @@ function loaderAnimation() {
   tl.to("#loader", {
     opacity: 0,
     duration: 0.2,
-    delay: 2.5,
+    delay: 0,
     // the time that the site takes to load orginal 2.5
   });
   tl.to("#loader", {
