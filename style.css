@@ -1,18 +1,18 @@
 @font-face {
   font-family: "plain light";
-  src: url(/p6.finalproject-obysclone/fonts/plain-light-webfont.woff);
+  src: url(./fonts/plain-light-webfont.woff);
 }
 @font-face {
   font-family: "plain light";
-  src: url(/p6.finalproject-obysclone/fonts/plain-regular-webfont.woff);
+  src: url(./fonts/plain-regular-webfont.woff);
 }
 @font-face {
   font-family: "silk serif";
-  src: url(/p6.finalproject-obysclone/fonts/silkserif-regularitalic-webfont.woff);
+  src: url(./fonts/silkserif-regularitalic-webfont.woff);
 }
 @font-face {
   font-family: "silk serif";
-  src: url(/p6.finalproject-obysclone/fonts/silkserif-lightitalic-webfont.woff);
+  src: url(./fonts/silkserif-lightitalic-webfont.woff);
 }
 * {
   margin: 0;
@@ -300,7 +300,7 @@ h5 {
   width: 66.5rem;
   position: relative;
   left: 26%;
-  background-image: url(/p6.finalproject-obysclone/assects/video.jpg);
+  background-image: url(./assects/video.jpg);
   background-position: center;
   background-size: cover;
 }
