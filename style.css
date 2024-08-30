@@ -116,32 +116,6 @@ h5 {
   animation: 1s infinite;
   opacity: 0;
 }
-@-webkit-keyframes nowanimation {
-  0% {
-    font-family: "plain light";
-    -webkit-text-stroke: 0.1rem white;
-    color: white;
-    opacity: 1;
-  }
-  38% {
-    font-family: "plain light";
-    -webkit-text-stroke: 0.1rem white;
-    color: white;
-    opacity: 0;
-  }
-  70% {
-    font-family: "silk serif";
-    -webkit-text-stroke: 0.1rem white;
-    color: transparent;
-    opacity: 1;
-  }
-  100% {
-    font-family: "silk serif";
-    -webkit-text-stroke: 0.1rem white;
-    color: transparent;
-    opacity: 0;
-  }
-}
 @keyframes nowanimation {
   0% {
     font-family: "plain light";
@@ -330,6 +304,7 @@ h5 {
   min-height: 100vh;
   position: relative;
   padding: 10rem 2rem;
+  padding-top: 15rem;
 }
 #projectSection .underline {
   height: 0.1rem;

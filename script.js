@@ -267,6 +267,30 @@ document.querySelector("footer h2").addEventListener("mouseleave", function() {
   
 }
 
+function reviewsAnnimation() {
+  // var clutter = "";
+  // document
+  //   .querySelector("#aboutSection .paragraph-text")
+  //   .textContent.split("")
+  //   .forEach(function (element) {
+  //     if (element === " ") {
+  //       clutter += `<span>&nbsp;</span>`;
+  //     }
+  //     clutter += `<span>${element}</span>`;
+  //   });
+  // document.querySelector("#aboutSection .paragraph-text").innerHTML = clutter;
+
+  // // gsap.set("#aboutSection .paragraph-text span", { opacity: 0.1 });
+  // gsap.from("#aboutSection .paragraph-text span", {
+    
+  //   delay: 0.2,
+  //   y: 1200,
+  //   opacity: 0,
+  //   duration: 0.5,
+  //   ease: Power4,
+  // });
+}
+
 // function calls -------------------------------------------------------------------
 
 cursorAnimation();
@@ -278,3 +302,5 @@ document.addEventListener("DOMContentLoaded", function() {
     locomotiveWithGsap();
   }
 });
+
+// reviewsAnnimation();
