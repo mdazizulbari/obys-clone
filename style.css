@@ -1,10 +1,12 @@
 @font-face {
   font-family: "plain light";
   src: url(./fonts/plain-light-webfont.woff);
+  font-weight: 200;
 }
 @font-face {
   font-family: "plain light";
   src: url(./fonts/plain-regular-webfont.woff);
+  font-weight: 400;
 }
 @font-face {
   font-family: "silk serif";
@@ -330,7 +332,7 @@ h5 {
   padding: 10rem 2rem;
 }
 #projectSection .underline {
-  height: 0.2rem;
+  height: 0.1rem;
   width: 100%;
   background: white;
   margin: 3rem 0;
@@ -375,9 +377,31 @@ h5 {
   position: relative;
   overflow: hidden;
 }
-.imgContainer:nth-child(1) {
+.projectContainer h3{
+    margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.projectUnderline{
+  height: 0.1rem;
+  width: 100%;
+  background: white;
+  margin: 2rem 0;
+}
+.projectDescription{
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.projectDescription h4{
+  font-size: .9rem;
+font-weight: 200;
+}
+.projectContainer:nth-child(1) .imgContainer {
   height: 28rem;
-  width: 18rem;
+  width: 20rem;
 }
 .imgContainer:nth-child(6) {
   margin-left: 5%;
@@ -487,7 +511,7 @@ h5 {
   position: relative;
 }
 #aboutContent .underline {
-  height: 0.2rem;
+  height: 0.1rem;
   width: 100%;
   background: white;
   margin: 3rem 0;
@@ -654,7 +678,7 @@ footer h2:hover {
   font-size: 6.5rem;
 }
 .underline {
-  height: 0.2rem;
+  height: 0.1rem;
   width: 100%;
   background: white;
   margin: 2rem 0;
