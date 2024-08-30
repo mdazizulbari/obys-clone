@@ -708,8 +708,11 @@ footer h2:hover {
   font-size: 0.9rem;
   font-family: "plain light";
 }
-#footerBox {
+.footerBox {
   width: 20%;
+}
+.footerBox h6:hover{
+  color:rgb(161, 161, 161);
 }
 footer > h6 {
   font-size: 1rem;
