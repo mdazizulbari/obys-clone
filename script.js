@@ -156,7 +156,7 @@ function loaderAnimation() {
   tl.to("#loader", {
     opacity: 0,
     duration: 0.2,
-    delay: 0,
+    delay: 2.5,
     // the time that the site takes to load orginal 2.5
   });
   tl.to("#loader", {
