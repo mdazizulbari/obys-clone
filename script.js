@@ -293,14 +293,14 @@ function reviewsAnnimation() {
 
 // function calls -------------------------------------------------------------------
 
-cursorAnimation();
+// cursorAnimation();
 loaderAnimation();
-sheryImgAnimaiton();
+// sheryImgAnimaiton();
 footerAnimation()
-document.addEventListener("DOMContentLoaded", function() {
-  if (window.innerWidth > 600) {
-    locomotiveWithGsap();
-  }
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   if (window.innerWidth > 600) {
+//   }
+// });
 
 // reviewsAnnimation();
+locomotiveWithGsap();

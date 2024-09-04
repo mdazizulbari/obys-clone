@@ -30,7 +30,7 @@ html {
   height: 100%;
   font-size: 1.1vmax;
   overflow-x: hidden;
-  cursor: none;
+  /* cursor: none; */
 }
 main {
   position: relative;
@@ -41,7 +41,7 @@ section {
   width: 100%;
 }
 
-/* #cursor {
+#cursor {
   height: 2.3rem;
   width: 2.3rem;
   position: fixed;
@@ -50,13 +50,13 @@ section {
   mix-blend-mode: difference;
   transform: translate(-50%, -50%);
   z-index: 9999999 !important;
-} */
-.mousefollower {
+}
+/* .mousefollower {
   border: 1rem;
   background: white;
   scale: 2;
   mix-blend-mode: difference;
-}
+} */
 /* loader section --------------------------------------------------------------- */
 #loader {
   height: 100vh;
